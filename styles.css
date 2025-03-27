@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #a3d977;
+}
+
+h1 {
+    color: #2d6a4f;
+}
+
+canvas {
+    background-color: #8fbc8f;
+    border: 5px solid #2d6a4f;
+    display: block;
+    margin: 20px auto;
+}
+
+.score {
+    font-size: 1.5em;
+    color: black;
+    margin-top: 10px;
+}
+
+button {
+    padding: 15px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #2d6a4f;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1b4d3e;
+}
+
+/* Control buttons layout */
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.horizontal-controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+#btnUp, #btnDown {
+    font-size: 2em; /* Bigger up and down buttons */
+    padding: 15px 25px;
+}
+
+#btnLeft, #btnRight {
+    font-size: 1.8em;
+    padding: 15px 25px;
+}
